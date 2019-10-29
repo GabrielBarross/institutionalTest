@@ -1,0 +1,80 @@
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexCol--switcherMobileCol {
+  width: 20%;
+}
+
+.flexRow--zeldaRow{
+  position: relative;
+}
+
+.flexRow--zeldaRow:after{
+  content: "";
+  background-image: url(https://storecomponents.vteximg.com.br/arquivos/backOne.png);
+  display: block;
+  position: absolute;
+  right: 200px;
+  top: 40px;
+  width: 426px;
+  height: 200px;
+  background-repeat: no-repeat;
+  transition: 3s ease;
+}
+
+.flexRow--zeldaRow:before{
+  content: "";
+  background-image: url(https://homologabriel--storecomponents.vteximg.com.br/arquivos/backTwo.png);
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 170px;
+  width: 426px;
+  height: 200px;
+  background-repeat: no-repeat;
+  transition: 3s ease;
+}
+
+.flexRow--zeldaRow:hover:before{
+  left: -50px;
+  top: 185px;
+}
+
+
+.flexRow--zeldaRow:hover:after{
+  right: 250px;
+  top: 55px;
+}
+
+

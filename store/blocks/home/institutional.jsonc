@@ -1,0 +1,100 @@
+{
+    "store.custom#test": {
+        "blocks": [
+            "flex-layout.row#teste1",
+            "flex-layout.row#teste2",
+            "flex-layout.row#teste3"
+        ]
+    },
+    "flex-layout.col#space": {
+        "props": {
+            "width": "15%"
+        }
+    },
+    "flex-layout.row#teste1": {
+        "children": [
+            "flex-layout.col#space",
+            "flex-layout.col#teste1-1",
+            "flex-layout.col#teste1-2",
+            "flex-layout.col#space"
+        ],
+        "props": {
+            "blockClass": "zeldaRow"
+        }
+    },
+    "flex-layout.col#teste1-1": {
+        "children": [
+            "image#hair",
+            "flex-layout.row#teste1bottom"
+        ],
+        "props": {}
+    },
+    "image#hair": {
+        "props": {
+            "src": "https://storecomponents.vteximg.com.br/arquivos/zelda-test3.png",
+            "blockClass": "MainImage"
+        }
+    },
+    "flex-layout.row#teste1bottom": {
+        "children": [
+            "image#bottom1",
+            "image#bottom2",
+            "image#bottom3",
+            "image#bottom4"
+        ]
+    },
+    "image#bottom1": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bottom2": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bottom3": {
+        "props": {
+            "src": ""
+        }
+    },
+    "image#bottom4": {
+        "props": {
+            "src": ""
+        }
+    },
+    "flex-layout.col#teste1-2": {
+        "children": [
+            "rich-text#title",
+            "rich-text#subtitle",
+            "rich-text#itens",
+            "rich-text#button"
+        ]
+    },
+    "rich-text#title": {
+        "props": {
+            "text": "![testetop](https://storecomponents.vteximg.com.br/arquivos/zeldinha2.png)",
+            "blockClass": "infoTitle"
+        }
+    },
+    "rich-text#subtitle": {
+        "props": {
+            "text": "Wild like never before",
+            "blockClass": "subtitle"
+        }
+    },
+    "rich-text#itens": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "blockClass": "itens"
+        }
+    },
+    "rich-text#button": {
+        "props": {
+            "text": "COMPRAR AGORA",
+            "blockClass": "button"
+        }
+    },
+    "flex-layout.row#teste2": {},
+    "flex-layout.row#teste3": {}
+}
